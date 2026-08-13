@@ -9,5 +9,5 @@ func _on_body_exited(body):
 	jugador_cerca = false
 
 func _process(delta):
-	if jugador_cerca and Input.is_action_just_pressed("action"):
+	if jugador_cerca and Input.is_action_pressed("action"):
 		print("Palanca activada")
