@@ -1,6 +1,3 @@
-res://Scenes/Nivel1.tscn
-res://Scripts/player.gd
+res://Scenes/Obstaculo.tscn
 res://Scenes/Player.tscn
-res://Scenes/Enemigo.tscn
-res://Scripts/palanca.gd
-res://Scenes/Plataforma.tscn
+res://Scripts/player.gd

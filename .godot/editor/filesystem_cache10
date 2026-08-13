@@ -1,15 +1,34 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1786631275
-::res://Scenes/::1786631173
-Enemigo.tscn::PackedScene::-1::1786629921::0::1::::<><><>0<>0<><>::res://Scripts/enemigo_patron.gd
+::res://::1786632602
+::res://Assets/::1786632683
+Idle (1).png::CompressedTexture2D::3789828331160086566::1786632683::1786632683::1::::<><><>0<>0<>deb7f5d585136d455d982becf074da70<>res://.godot/imported/Idle (1).png-c50c1e73f34ff985f59a72d0e43f8e31.ctex::
+Idle (2).png::CompressedTexture2D::242978269936866219::1786632683::1786632683::1::::<><><>0<>0<>e90c4a708d957b7e6bc3f9cbfed656a2<>res://.godot/imported/Idle (2).png-c0d648c1f9e07a6b6c0e75f9413de570.ctex::
+Idle (3).png::CompressedTexture2D::651180554587978469::1786632683::1786632683::1::::<><><>0<>0<>f24c1f5c36f2caadccbf2f596094c1b2<>res://.godot/imported/Idle (3).png-8b6bcdcfc4ccf794b16ea3e5d0e6ad3d.ctex::
+Idle (4).png::CompressedTexture2D::792394768080118584::1786632683::1786632683::1::::<><><>0<>0<>c752e1066497b98c1a4701b1cc0165c0<>res://.godot/imported/Idle (4).png-65021aea7caf3e343486e36cd488472a.ctex::
+Idle (5).png::CompressedTexture2D::529369956722819446::1786632683::1786632683::1::::<><><>0<>0<>6f4a566529ed05f67cbbd19b47da9d8b<>res://.godot/imported/Idle (5).png-ecf138fdf700c419fd165ad377bb62e9.ctex::
+Idle (6).png::CompressedTexture2D::4517273309094245505::1786632683::1786632683::1::::<><><>0<>0<>8a077c840c2669470948ada96f0a9a52<>res://.godot/imported/Idle (6).png-485d269a879b2d61bd4aa01cc6e1c59f.ctex::
+Idle (7).png::CompressedTexture2D::266790855247634266::1786632683::1786632683::1::::<><><>0<>0<>9b6214b1832a041dbe4e9f536f390712<>res://.godot/imported/Idle (7).png-2b9b3729ae168c2aa9b261b9060075b6.ctex::
+Idle (8).png::CompressedTexture2D::5867508129999243938::1786632683::1786632683::1::::<><><>0<>0<>a37f0fff97eeedaefdae1e341dee43b4<>res://.godot/imported/Idle (8).png-0862a62dc563cecb85e589a7a01fce8c.ctex::
+Idle (9).png::CompressedTexture2D::4752903676339284121::1786632683::1786632683::1::::<><><>0<>0<>c6943ea0929cb264f50b4178e4688516<>res://.godot/imported/Idle (9).png-63a23a5e27419bfa14a9bd6a9f120239.ctex::
+Idle (10).png::CompressedTexture2D::3796936592081661400::1786632683::1786632683::1::::<><><>0<>0<>b0b27c1f9b9f9180dcb73270ccefc15e<>res://.godot/imported/Idle (10).png-5cfbc28acc7345828744825567121ce4.ctex::
+Run (1).png::CompressedTexture2D::105915602364283668::1786632673::1786632674::1::::<><><>0<>0<>6f46151de058ab8e2254e598b89bee7d<>res://.godot/imported/Run (1).png-f2aecfa945a2075687741fec262d594d.ctex::
+Run (2).png::CompressedTexture2D::5624840879142069110::1786632673::1786632674::1::::<><><>0<>0<>46e1a01887bac994dc9c7e1c54ee12cd<>res://.godot/imported/Run (2).png-efca8b294141aac46aac3a8885614544.ctex::
+Run (3).png::CompressedTexture2D::915669611079585106::1786632673::1786632674::1::::<><><>0<>0<>46b50b02724c0dcef75bd587924bee4a<>res://.godot/imported/Run (3).png-707499791f2e81e7536bbdc2744e169e.ctex::
+Run (4).png::CompressedTexture2D::3997940031351665717::1786632673::1786632674::1::::<><><>0<>0<>b1d36774c60272683a87d3b69f5088c6<>res://.godot/imported/Run (4).png-72273acee34c5da5e6595e506ac15933.ctex::
+Run (5).png::CompressedTexture2D::6889833468023761791::1786632673::1786632674::1::::<><><>0<>0<>701a25cf0c0c87c16220fa1bcc48dc98<>res://.godot/imported/Run (5).png-171d70b5df96a7bdf7a52447d92966ed.ctex::
+Run (6).png::CompressedTexture2D::4232516498552278349::1786632673::1786632674::1::::<><><>0<>0<>a421e78e5c28d3c344448d6112ad82d9<>res://.godot/imported/Run (6).png-7afbfe9b8483d1ec1dbabaf493e45dc2.ctex::
+Run (7).png::CompressedTexture2D::2593015503635587439::1786632673::1786632674::1::::<><><>0<>0<>e66e08b2ba28a882d998088f30e85542<>res://.godot/imported/Run (7).png-49ee72f93bba89882d82c03f9361fb83.ctex::
+Run (8).png::CompressedTexture2D::1760714468684339863::1786632673::1786632674::1::::<><><>0<>0<>aa0055ce0c387f1261d009be2a68b2c0<>res://.godot/imported/Run (8).png-a2a964b2d67e0dec17908861cbe16665.ctex::
+::res://Scenes/::1786631929
+Enemigo.tscn::PackedScene::5756443655136745747::1786631812::0::1::::<><><>0<>0<><>::uid://xwa6tyvyo5b::::res://Scripts/enemigo_patron.gd
 Moneda.tscn::PackedScene::-1::1786629921::0::1::::<><><>0<>0<><>::res://Scripts/moneda.gd
-Nivel1.tscn::PackedScene::1059028593190941136::1786631173::0::1::::<><><>0<>0<><>::uid://dwgiigeedaytq::::res://Scenes/Player.tscn<>res://Scenes/Enemigo.tscn<>res://Scenes/Moneda.tscn<>res://Scenes/Palanca.tscn
+Nivel1.tscn::PackedScene::1059028593190941136::1786631303::0::1::::<><><>0<>0<><>::uid://dwgiigeedaytq::::res://Scenes/Player.tscn<>res://Scenes/Enemigo.tscn<>res://Scenes/Moneda.tscn<>res://Scenes/Palanca.tscn
 Obstaculo.tscn::PackedScene::-1::1786629921::0::1::::<><><>0<>0<><>::
 Palanca.tscn::PackedScene::-1::1786629921::0::1::::<><><>0<>0<><>::res://Scripts/palanca.gd
-Plataforma.tscn::PackedScene::-1::1786629921::0::1::::<><><>0<>0<><>::
-Player.tscn::PackedScene::8716303221438842790::1786630840::0::1::::<><><>0<>0<><>::uid://ogjrlmyjphjk::::res://Scripts/player.gd
-::res://Scripts/::1786631216
+Plataforma.tscn::PackedScene::3698661675286955339::1786631929::0::1::::<><><>0<>0<><>::
+Player.tscn::PackedScene::8716303221438842790::1786631855::0::1::::<><><>0<>0<><>::uid://ogjrlmyjphjk::::res://Scripts/player.gd
+::res://Scripts/::1786631929
 enemigo_patron.gd::GDScript::48818120878849157::1786629921::0::1::::<>Node2D<><>0<>0<><>::
 moneda.gd::GDScript::1935956009443786939::1786629921::0::1::::<>Area2D<><>0<>0<><>::
-palanca.gd::GDScript::2467967426413876343::1786629921::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript::995607486285673184::1786631216::0::1::::<>CharacterBody2D<><>0<>0<><>::
+palanca.gd::GDScript::2467967426413876343::1786631929::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::995607486285673184::1786631584::0::1::::<>CharacterBody2D<><>0<>0<><>::

@@ -1,20 +1,107 @@
 [gd_scene format=3 uid="uid://dwgiigeedaytq"]
 
-[ext_resource type="Script" uid="uid://ogjrlmyjphjk" path="res://Scripts/player.gd" id="1"]
+[ext_resource type="Script" uid="uid://busqis28ayrgj" path="res://Scenes/character_body_2d.gd" id="1_1iu4k"]
+[ext_resource type="Texture2D" uid="uid://bt826ii8abfv7" path="res://Assets/Idle (1).png" id="2_1iu4k"]
+[ext_resource type="Texture2D" uid="uid://b8ylvnj1j3e54" path="res://Assets/Idle (9).png" id="3_m0x7a"]
+[ext_resource type="Texture2D" uid="uid://jjo338gtssob" path="res://Assets/Idle (3).png" id="4_5v66d"]
+[ext_resource type="Texture2D" uid="uid://cpujab50rjtvu" path="res://Assets/Idle (8).png" id="5_x63xi"]
+[ext_resource type="Texture2D" uid="uid://d2iahn3kilti" path="res://Assets/Idle (7).png" id="6_i2e8t"]
+[ext_resource type="Texture2D" uid="uid://budi8xrum7ifo" path="res://Assets/Idle (10).png" id="7_qidb7"]
+[ext_resource type="Texture2D" uid="uid://b5mg3jec85bq4" path="res://Assets/Idle (6).png" id="8_70hv0"]
+[ext_resource type="Texture2D" uid="uid://dpx2085nb70b" path="res://Assets/Idle (2).png" id="9_8flut"]
+[ext_resource type="Texture2D" uid="uid://hsov7uklldxu" path="res://Assets/Idle (5).png" id="10_u7x0b"]
+[ext_resource type="Texture2D" uid="uid://lj3vjywprjki" path="res://Assets/Idle (4).png" id="11_utwlt"]
+[ext_resource type="Texture2D" uid="uid://brkodfmtfpb5" path="res://Assets/Run (1).png" id="12_kih0c"]
+[ext_resource type="Texture2D" uid="uid://c5fqsyq3bx2f8" path="res://Assets/Run (5).png" id="13_lyrkg"]
+[ext_resource type="Texture2D" uid="uid://b1ki6tf8hd74l" path="res://Assets/Run (6).png" id="14_c43xd"]
+[ext_resource type="Texture2D" uid="uid://cmeykppgrdy03" path="res://Assets/Run (2).png" id="15_avx33"]
+[ext_resource type="Texture2D" uid="uid://nbs7edavmcn7" path="res://Assets/Run (3).png" id="16_rxg2u"]
+[ext_resource type="Texture2D" uid="uid://0c5ye3a5rost" path="res://Assets/Run (8).png" id="17_xixlo"]
+[ext_resource type="Texture2D" uid="uid://bw7vqumuu7ojl" path="res://Assets/Run (4).png" id="18_bfbt0"]
+[ext_resource type="Texture2D" uid="uid://bc7ct6823fkux" path="res://Assets/Run (7).png" id="19_wosd6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
 size = Vector2(32, 48)
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_bm02b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_1iu4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_m0x7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5v66d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_x63xi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_i2e8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_qidb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_70hv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_8flut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_u7x0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_utwlt")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_kih0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_lyrkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_c43xd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_avx33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_rxg2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_xixlo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bfbt0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_wosd6")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 5.0
+}]
+
 [node name="Player" type="Node2D" unique_id=1544093202 groups=["player"]]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=618559796 groups=["player"]]
-script = ExtResource("1")
-
-[node name="Polygon2D" type="Polygon2D" parent="CharacterBody2D" unique_id=295595236]
-color = Color(0.2, 0.4, 1, 1)
-polygon = PackedVector2Array(-16, -24, 16, -24, 16, 24, -16, 24)
+script = ExtResource("1_1iu4k")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=455464894]
 shape = SubResource("RectangleShape2D_1")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1782834648]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=231885179 groups=["player"]]
+position = Vector2(-6, 1)
+scale = Vector2(0.09984586, 0.09880273)
+sprite_frames = SubResource("SpriteFrames_bm02b")
+animation = &"idle"
